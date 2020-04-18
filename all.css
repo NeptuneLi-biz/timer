@@ -1,0 +1,17 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 0 auto;
+}
+
+main {
+    margin: 0 auto;
+    display: inline-block;
+    background-color: rgb(238, 236, 236);
+    border-bottom: 2px solid red;
+    padding: 5px;
+    align-items: center;
+}
