@@ -1,17 +1,26 @@
-.container {
-    width: 300px;
-    margin: 0 auto;
+@font-face {
+    font-family: open-huninn;
+    src: url(./font/jf-openhuninn-1.0.ttf);
 }
 
-header {
+.container {
+    max-width: 800px;
+}
+
+header img {
     margin: 0 auto;
 }
 
 main {
-    margin: 0 auto;
+    display: flex;
+}
+
+main .text {
     display: inline-block;
-    background-color: rgb(238, 236, 236);
-    border-bottom: 2px solid red;
-    padding: 5px;
-    align-items: center;
+    margin: 0 auto;
+    background-color: #e12853;
+    color: white;   
+    padding: 10px;
+    font-size: 28pt;
+    font-family: "open-huninn";
 }
