@@ -4,7 +4,8 @@
 }
 
 .container {
-    max-width: 800px;
+    width: 800px;
+    margin: 0 auto;
 }
 
 header img {
@@ -13,6 +14,7 @@ header img {
 
 main {
     display: flex;
+    justify-content: center;
 }
 
 main .text {
